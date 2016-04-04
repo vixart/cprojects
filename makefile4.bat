@@ -1,0 +1,1 @@
+gcc 4task.c && a

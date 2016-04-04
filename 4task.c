@@ -1,4 +1,5 @@
 #include "stdio.h"
+#include "conio.h"
 
 int bsearch(int *array, int count, int number, int *check)
 {
@@ -26,5 +27,6 @@ int main()
 	else
 		printf("The array does not have the number, more than %d", number);
 	
+	_getch();
 	return 0;
 }
